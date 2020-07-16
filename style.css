@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: linear-gradient(rgba(95, 114, 189, .5), rgba(155, 35, 234, .4)), url('img/cb.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+#comandos {
+    background: linear-gradient(rgba(95, 114, 189, .5), rgba(155, 35, 234, .4));
+    padding: 50px 0 30px 0;
+    
+}
