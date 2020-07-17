@@ -20,13 +20,13 @@
             <div class="col-sm-12 my-4">
                 <a href="index.html"><img src="./img/rueda-de-la-fortuna.png" class="logo ">
                 </a>
-                <h1 class="text-uppercase display-4 font-weight-bold text-center mt-4">SpotiBot el mejor en FUN</h1>
+                <h1 class="text-uppercase display-4 font-weight-bold text-center mt-4">SpotiBot, lo mejor en FUN</h1>
             </div>
             <div class="imagen col-sm-6 header-contain-left">
                 <img src="./img/publicidad.png" class="img-fluid">
             </div>
             <div class="col-sm-6 text-center">
-                <p class="text-description">SpotiBot es un bot desarrollado para el entretenimiento de todos los servidores de discord, innovando siempre para tener un poco mas de color en la vida. El bot cuenta con comandos de interacción individual o con algún compañero, al igual cuenta con un sistema especial para hablar naturalmente con el bot. ¡No lo pienses mas y dale color a tu grupo con SpotiBot!</p>
+                <p class="txt-inicio text-description">SpotiBot es un bot desarrollado para el entretenimiento de todos los servidores de discord, innovando siempre para tener un poco mas de color en la vida. El bot cuenta con comandos de interacción individual o con algún compañero, al igual cuenta con un sistema especial para hablar naturalmente con el bot. ¡No lo pienses mas y dale color a tu grupo con SpotiBot!</p>
                 <form action="">
                     <button class="invitar btn btn-light mt-4">
                         <a href="https://discord.com/oauth2/authorize?client_id=727800016315482172&scope=bot&permissions=8">Invitar BOT</a>
@@ -54,6 +54,19 @@
         </div>
     </header>
 
+    <section id="comandos">
+        <div class="container">
+            <div class="row">
+                <div class=" txt col-sm-6 text-center">
+                    <p class="text-description text-center mt-5">La siguiente lista de comandos son con los que el bot cuenta actualmente. Estos son completamente de FUN y se actualiza la lista cada vez que se agregan nuevos comandos. El bot se encuentra en constante desarrollo de nuevos sistemas, mantenimiento de los que ya están y actualizando comandos para que las reacciones, mensajes o comandos estén todos actualizados.</p>
+                </div>
+                <div class="imagen2 col-sm-6 header-contain-left">
+                    <img src="img/commands.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -75,6 +88,23 @@
             duration: 2000,
             origin: 'top',
             distance:'100px'
+        });
+        sr.reveal('.imagen2', {
+            duration: 2000,
+            origin: 'right',
+            distance: '100px'
+
+        });
+        sr.reveal('.txt-inicio', {
+            duration: 2000,
+            origin: 'right',
+            distance: '100px'
+
+        });
+        sr.reveal('.txt', {
+            duration: 2000,
+            origin: 'left',
+            distance: '100px'
         });
     </script>
 </body>
